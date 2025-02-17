@@ -1,0 +1,119 @@
+body {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+#interactive-logo {
+    transition: transform 0.3s ease;
+    font-size: 2rem;
+  }
+
+  #interactive-logo:hover {
+    transform: scale(1.1);
+  }
+  
+
+header nav ul li a {
+    font-size: 1.25rem;
+    color: #fff; /* Set initial color */
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+  
+  /* Navigation Links Hover Effect */
+header nav ul li a:hover {
+    color: #0d6efd !important; /* Electric blue */
+}
+
+.about-section {
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #004bb5;
+}
+
+.list-group-item.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+#tiktoklink{
+    text-decoration: none;
+}
+
+#instagramlink{
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #111;
+  }
+  
+  .footer a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #0d6efd;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+        background-size: cover;
+    }
+  
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+  
+    .hero-section p {
+        font-size: 0.875rem;
+    }
+  
+    #interactive-logo {
+        font-size: 1.2rem;
+    }
+  
+    header nav ul li a {
+        font-size: 0.65rem;
+    }
+}
+  
+@media (max-width: 480px) {
+    #interactive-logo {
+        font-size: 1rem;
+    }
+  
+    header nav ul li a {
+        font-size: 0.55rem;
+    }
+  
+    .hero-section h1 {
+        font-size: 1.25rem;
+    }
+  
+    .hero-section p {
+        font-size: 0.75rem;
+    }
+} 
+  
